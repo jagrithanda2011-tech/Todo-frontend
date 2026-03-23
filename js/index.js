@@ -49,7 +49,7 @@ const getTasks = () => {
     })
 }
 
-input.addEventListener('keypress', (event) => {
+input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
         event.preventDefault()
         const taskText = input.value.trim()

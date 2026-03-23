@@ -4,3 +4,6 @@ h3{
 form {
     margin-bottom: 1em;
 }
+input{
+    pointer-events: none;
+}
