@@ -2,7 +2,7 @@ import { Task } from "./task.js";
 
 class Todos {
     #tasks = []
-    #backend_url = 'http://localhost:3001'
+    #backend_url = 'https://todo-backend-8bqx.onrender.com'
 
     constructor(url) {
         this.#backend_url = url
